@@ -65,7 +65,8 @@ public class HappyFamilyApp {
         Human john = new Human("John", "Doe", 2022, michael, anna);
         Human emma = new Human("Emma", "Doe", 2024, michael, anna);
 
-        System.out.println("\n============ Demonstrating toString() Output for All Family Members ============");        System.out.println(human1);
+        System.out.println("\n============ Demonstrating toString() Output for All Family Members ============");
+        System.out.println(human1);
         System.out.println(human2);
         System.out.println(human3);
         System.out.println(anna);
