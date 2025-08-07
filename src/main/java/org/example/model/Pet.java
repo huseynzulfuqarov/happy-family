@@ -25,7 +25,6 @@ public class Pet {
     }
 
     public Pet(){
-
     }
 
     public String getSpecies() {
@@ -73,7 +72,7 @@ public class Pet {
     }
 
     public void respond(){
-        System.out.println("Hello owner.I am " + getNickname());
+        System.out.println("Hello owner.I am - " + getNickname() + ". I miss you!");
     }
 
     public void foul(){
